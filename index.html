@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brajesh Kumar – Video Editor & Trader</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #0e0e10;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(135deg, #0077ff, #00c6ff);
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #f0f0f0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: #16161a;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 12px rgba(0, 150, 255, 0.2);
+    }
+    h2 {
+      color: #00bfff;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill {
+      background: #0077ff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brajesh Kumar</h1>
+    <p>Video Editor & Trading Graph Analyst</p>
+  </header>
 
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Brajesh Kumar — a passionate <strong>Video Editor</strong> and
+        <strong>Trading Graph Decision Maker</strong>. I love creating engaging
+        visuals and analyzing trading charts to find the best opportunities.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <div class="skill">Video Editing</div>
+        <div class="skill">Trading Graph Analysis</div>
+        <div class="skill">Creativity</div>
+        <div class="skill">Technical Understanding</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Coming Soon...</p>
+    </section>
+  </div>
+
+  <footer>
+    © <span id="year"></span> Brajesh Kumar. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
